@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context path="/finalProjectFall2021">
+    
+    <Resource name="jdbc/finalProjectFall2021" auth="container"
+        driverClassName="com.mysql.jdbc.Driver"
+        url="jdbc:mysql://localhost:3306/finalprojectfall2021"
+        username="root" password="password"
+        maxActive="100" maxIdle="10" maxWait="10000"
+        logAbandoned="true" removeAbandoned="true"
+        removeAbandonedTimeout="60" type="javax.sql.DataSource" />
+    
+</Context>
